@@ -1,13 +1,14 @@
 class TokenLedgerContract {
+    
     constructor(initialSupply = 1000000) {
-        this.tokenName = "Ledger Token";
-        this.tokenSymbol = "LDG";
-        this.decimals = 18;
+        this.tokenName   = "Ledger Token";
+        this.tokenSymbol = "XLDG";
+        this.decimals    = 18;
         this.totalSupply = initialSupply * Math.pow(10, this.decimals);
-        this.balanceOf = {};
-        this.allowance = {};
-        this.events = [];
-        this.owner = null;
+        this.balanceOf   = {};
+        this.allowance   = {};
+        this.events      = [];
+        this.owner       = null;
     }
 
     deploy(ownerAddress) {

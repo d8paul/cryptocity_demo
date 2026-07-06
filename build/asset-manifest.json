@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1bb8c565.css",
+    "main.js": "/static/js/main.56dcf7dc.js",
+    "static/media/MehdiRezakhani2.jpeg": "/static/media/MehdiRezakhani2.153697dc36b16e91c659.jpeg",
+    "index.html": "/index.html",
+    "main.1bb8c565.css.map": "/static/css/main.1bb8c565.css.map",
+    "main.56dcf7dc.js.map": "/static/js/main.56dcf7dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bb8c565.css",
+    "static/js/main.56dcf7dc.js"
+  ]
+}

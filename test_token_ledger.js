@@ -34,7 +34,7 @@ function example() {
     const balances = contract.getAllBalances();
     console.log("5. All Balances:");
     for (const [address, balance] of Object.entries(balances)) {
-        console.log(`   ${address}: ${balance / Math.pow(10, 18)} LDG`);
+        console.log(`   ${address}: ${balance / Math.pow(10, 18)} XLDG`);
     }
 
     const events = contract.getEvents();
